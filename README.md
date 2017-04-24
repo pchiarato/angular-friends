@@ -51,7 +51,7 @@ Let test your app setup. Add a scope variable called `test` with the value `'Hel
   <summary>`index.html`</summary>
 
   ```html
-  <body ng-app="myApp">
+  <html ng-app="myApp">
     <h1>The <strong>facebook</strong> Friend Machine</h1>
     <div class="friends" ng-controller="FriendCtrl">
 
@@ -60,7 +60,7 @@ Let test your app setup. Add a scope variable called `test` with the value `'Hel
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js"></script>
     <script src="./app.js"></script>
     <script src="./FriendCtrl.js"></script>
-  </body>
+  </html>
   ```
 </details>
 
